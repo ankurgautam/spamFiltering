@@ -201,7 +201,6 @@ wordcloud(refined_corpus[sms_data$type=="ham"], min.freq=5,
 random.order=FALSE, colors=pal)
 ```
 
-Word Cloud:
 ![alt text](https://github.com/ankurgautam/spamFiltering/blob/master/Viz/wordcloud1.png "Word Cloud")
 
 
@@ -210,7 +209,7 @@ wordcloud(refined_corpus[sms_data$type=="spam"], min.freq=2,
 random.order=FALSE, colors=pal)
 ```
 
-Word Cloud:
+
 ![alt text](https://github.com/ankurgautam/spamFiltering/blob/master/Viz/wordcloud2.png "Word Cloud")
 
 ##Modeling & Prediction
